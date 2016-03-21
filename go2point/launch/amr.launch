@@ -1,0 +1,6 @@
+<launch>
+
+<node name="kine" pkg="kine_controller" type="kine"   />
+<node name="go2point" pkg="go2point" type="go2point" output="screen" />
+
+</launch>
